@@ -8,21 +8,7 @@ Generate verified, high-quality business leads with confidence scoring and sourc
 - Source attribution: authoritative URL per lead
 - JSON schema validation with Pydantic
 - Beautiful UI built with shadcn/ui + Tailwind CSS
-
-## Architecture
-The system consists of a frontend SPA that calls a Flask API. The API orchestrates a LangChain agent using an Ollama LLM and SerpAPI for web search.
-
-```mermaid
-graph TD
-  A[User] --> B[Frontend (Vite + React)]
-  B -->|POST /generate-leads| C[Flask API]
-  C --> D[LangChain Agent]
-  D --> E[SerpAPI Search]
-  D --> F[Ollama (Local LLM)]
-  D -->|JSON leads| C
-  C -->|JSON leads| B
-  B -->|Render cards| A
-```
+<img width="1519" height="903" alt="image" src="https://github.com/user-attachments/assets/bc7ce7ed-0da7-40c8-951c-0af82cf5b347" />
 
 ### Request flow (detailed)
 ```mermaid
