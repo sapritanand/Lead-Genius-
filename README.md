@@ -1,6 +1,9 @@
 ## Lead Agent – AI-Powered Business Lead Generator
 
-Generate verified, high-quality business leads with confidence scoring and source attribution. This project combines a Flask backend (LangChain + Ollama + SerpAPI) with a modern Vite + React + TypeScript frontend.
+Generate verified, high-quality business leads with confidence scoring and source attribution.
+Perfect for New Business Folks.
+
+This project combines a Flask backend (LangChain + Ollama + SerpAPI) with a modern Vite + React + TypeScript frontend.
 
 ### Key features
 - Verified lead data: name, address, phone, website
